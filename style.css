@@ -213,7 +213,7 @@ p {
 #media-out {
 
     border-top: #fff;
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
     color: #fff;
     background-color: #336767;
@@ -223,6 +223,10 @@ p {
 
 }
 
+.media-in img {
+    width: 40px;
+}
+
 /*social media*/
 .media-in {
 
@@ -230,9 +234,10 @@ p {
     flex-direction: column;
     margin-left: 15px;
     width: 90%;
-    padding-bottom: 30px;
-
+    padding-bottom: 20px;
+    gap: 20px;
     justify-content: flex-end;
+
 }
 
 @media only screen and (max-width: 600px) {
