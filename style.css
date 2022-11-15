@@ -240,6 +240,8 @@ p {
 
 }
 
+
+/*basic phone friendly settings */
 @media only screen and (max-width: 600px) {
 
 
