@@ -241,48 +241,53 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+
+
+    /*tar bort nav bar i telefonen*/
+
     .side_nav {
 
         display: none;
     }
 
+    /*ändrar höjden*/
     #welcome-section {
         height: 10vh;
     }
 
+    /*ändrar base höjden på alla section*/
     section {
         height: 50vh;
 
     }
 
-
+    /*storleken på profile bilden*/
     .github_pfp {
-
         width: 170px;
-
-
-
     }
 
+    /*tar bort scrollbaren*/
     ::-webkit-scrollbar {
         width: none;
     }
 
-
+    /*ändrar alla h1 element inom första sectionen*/
     #welcome-section h1 {
         font-size: 2rem;
     }
 
+    /*ändrar alla h1 element inom andra sectionen*/
     #projects h1 {
         font-size: 2rem;
 
 
     }
 
+    /*lägger alla projekt för at rymmas på en telefon*/
     #phone-rotate {
         display: flex;
         flex-direction: row;
-        gap: 5px;
+        gap: 10px;
     }
 
     #projects {
@@ -291,38 +296,27 @@ p {
 
     }
 
-
+    /*lägger alla projekt för at rymmas på en telefon*/
     #plp {
         padding-top: 10px;
-        gap: 5px;
+        gap: 10px;
         display: flex;
         flex-direction: column;
     }
 
+    /*tar bort navbar*/
     nav {
         display: none;
     }
 
+    /*ändrar på höjden*/
     #plp1 {
-
-
-        border: #fff;
-        border-style: ridge;
-
-        font-size: 1px;
+        font-size: 1rem;
         height: 165px;
 
-
     }
 
-
-    p {
-        font-size: 1rem;
-
-
-
-    }
-
+    /* fixar rum till all media så att allt syns */
     .media-in {
 
         display: flex;
@@ -335,7 +329,7 @@ p {
         justify-content: flex-end;
     }
 
-
+    /*bild storleken*/
     #plp1 img {
         height: 120px;
         width: 120px;
